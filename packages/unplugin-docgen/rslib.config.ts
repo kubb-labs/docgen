@@ -28,16 +28,8 @@ export default defineConfig({
   ],
   source: {
     entry: {
-      'index': './src/index.ts',
-      'astro': './src/astro.ts',
-      'rspack': './src/rspack.ts',
-      'vite': './src/vite.ts',
-      'webpack': './src/webpack.ts',
-      'rollup': './src/rollup.ts',
-      'esbuild': './src/esbuild.ts',
-      'nuxt': './src/nuxt.ts',
-      'types': './src/types.ts'
-    },
+      index: 'src/**',
+    }
   },
   output: {
     target: 'node',

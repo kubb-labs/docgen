@@ -102,19 +102,20 @@
     "typecheck": "tsc -p ./tsconfig.json --noEmit --emitDeclarationOnly false"
   },
   "dependencies": {
+    "react-docgen-typescript": "^2.4.0",
+    "unplugin-utils": "^0.2.4",
     "unplugin": "^2.3.5"
   },
   "devDependencies": {
+    "@microsoft/api-extractor": "^7.52.8",
     "@nuxt/kit": "^3.17.6",
     "@nuxt/schema": "^3.17.6",
+    "@rslib/core": "^0.10.4",
     "@types/node": "catalog:",
-    "rimraf": "^6.0.1",
     "rollup": "^4.44.1",
     "tsup": "catalog:",
     "typescript": "catalog:",
-    "vite": "^6.3.5",
-    "@microsoft/api-extractor": "^7.52.8",
-    "@rslib/core": "^0.10.4",
+    "vite": "^7.0.1",
     "webpack": "^5.99.9"
   },
   "peerDependencies": {

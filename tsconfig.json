@@ -3,7 +3,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "module": "ES2020",
-    "moduleResolution": "Bundler",
+    "moduleResolution": "node",
     "noEmit": false,
     "declaration": true,
     "emitDeclarationOnly": true,

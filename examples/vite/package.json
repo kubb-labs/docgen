@@ -1,0 +1,39 @@
+{
+  "name": "vite",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Vite example",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kubb-labs/docgen.git",
+    "directory": "examples/vite"
+  },
+  "license": "MIT",
+  "author": "stijnvanhulle",
+  "sideEffects": false,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "clean": "npx rimraf ./dist",
+    "start": "vite",
+    "test": "vitest",
+    "typecheck": "tsc -p ./tsconfig.json --noEmit --emitDeclarationOnly false"
+  },
+  "dependencies": {
+    "unplugin-docgen": "workspace:*",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.6.0",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "typescript": "catalog:",
+    "vite": "^7.0.1"
+  },
+  "packageManager": "pnpm@10.12.4",
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=10.12.0"
+  }
+}

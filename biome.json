@@ -17,7 +17,6 @@
       "!**/public",
       "!**/dist",
       "!**/artifacts",
-      "!**/.next",
       "!**/.github",
       "!**/.codesandbox",
       "!**/node_modules/**",
