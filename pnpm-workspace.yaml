@@ -1,0 +1,6 @@
+packages:
+  - packages/*
+catalog:
+  '@types/node': ^20.19.4
+  tsup: ^8.5.0
+  typescript: ^5.8.3
