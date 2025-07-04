@@ -1,6 +1,5 @@
 <div style="text-align: center;">
 
-
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![Coverage][coverage-src]][coverage-href]
@@ -14,9 +13,15 @@
   </h4>
 </div>
 
+The unplugin-docgen package from [Kubb](https:www.kubb.dev) is a Vite/Webpack/Rollup/ESBuild-compatible plugin that extracts TypeScript/React component prop types and JSDoc metadata into a machine-readable format that could be used in a documentation system(with the use of markdown).
+
+
 <br />
 
 ## Features
+🎨 Extract React Props in a clean, readable format
+📚 Parse JSDoc annotations to extract descriptions, tags, and type hints
+🏗️ Integrates with major bundlers: Vite, Esbuild, Webpack, Rollup, Rspack
 
 ## Supporting Kubb
 
