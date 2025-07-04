@@ -19,9 +19,9 @@ The unplugin-docgen package from [Kubb](https:www.kubb.dev) is a Vite/Webpack/Ro
 <br />
 
 ## Features
-🎨 Extract React Props in a clean, readable format
-📚 Parse JSDoc annotations to extract descriptions, tags, and type hints
-🏗️ Integrates with major bundlers: Vite, Esbuild, Webpack, Rollup, Rspack
+- 🎨 Extract React Props in a clean, readable format
+- 📚 Parse JSDoc annotations to extract descriptions, tags, and type hints
+- 🏗️ Integrates with major bundlers: Vite, Esbuild, Webpack, Rollup, Rspack
 
 ## Supporting Kubb
 
